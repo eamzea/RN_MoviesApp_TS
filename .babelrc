@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "navigator": "./src/navigator",
+          "components": "./src/components",
+          "context": "./src/context",
+          "screens": "./src/screens",
+          "api": "./src/api",
+          "hooks": "./src/hooks",
+          "helpers": "./src/helpers"
+        }
+      }
+    ]
+  ]
+}
